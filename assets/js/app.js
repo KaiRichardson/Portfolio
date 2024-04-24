@@ -36,63 +36,63 @@ function toggleFunction() {
 }
 
 // PIE CHART
-var data_1 = {
-  labels: ["Git", "HTML-CSS", "Javascript", "Node.js"],
-  datasets: [
-    {
-      backgroundColor: [
-        "rgb(96,156,209)",
-        "rgb(241,208,189)",
-        "rgb(155,155,155)",
-        "rgb(185,160,129)"
-      ],
-      data: [10, 20, 30, 40]
-    }
-  ]
-};
+// var data_1 = {
+//   labels: ["Git", "HTML-CSS", "Javascript", "Node.js"],
+//   datasets: [
+//     {
+//       backgroundColor: [
+//         "rgb(96,156,209)",
+//         "rgb(241,208,189)",
+//         "rgb(155,155,155)",
+//         "rgb(185,160,129)"
+//       ],
+//       data: [10, 20, 30, 40]
+//     }
+//   ]
+// };
 
-var data_2 = {
-  labels: ["MySQL", "MongoDB", "Express", "Sequelize"],
-  datasets: [
-    {
-      backgroundColor: [
-        "rgb(226,227,230)",
-        "rgb(61,63,64)",
-        "rgb(230,226,214)",
-        "rgb(250,195,107)"
-      ],
-      data: [10, 20, 30, 40]
-    }
-  ]
-};
+// var data_2 = {
+//   labels: ["MySQL", "MongoDB", "Express", "Sequelize"],
+//   datasets: [
+//     {
+//       backgroundColor: [
+//         "rgb(226,227,230)",
+//         "rgb(61,63,64)",
+//         "rgb(230,226,214)",
+//         "rgb(250,195,107)"
+//       ],
+//       data: [10, 20, 30, 40]
+//     }
+//   ]
+// };
 
-var options = {
-  animation: {
-    animateScale: false,
-    animateRotate: true
-  },
-  rotation: 1 * Math.PI,
-  circumference: 1 * Math.PI,
-  tooltips: {
-    backgroundColor: "#FFF",
-    titleFontSize: 16,
-    titleFontColor: "#0066ff",
-    bodyFontColor: "#000",
-    bodyFontSize: 14,
-    displayColors: false
-  }
-};
+// var options = {
+//   animation: {
+//     animateScale: false,
+//     animateRotate: true
+//   },
+//   rotation: 1 * Math.PI,
+//   circumference: 1 * Math.PI,
+//   tooltips: {
+//     backgroundColor: "#FFF",
+//     titleFontSize: 16,
+//     titleFontColor: "#0066ff",
+//     bodyFontColor: "#000",
+//     bodyFontSize: 14,
+//     displayColors: false
+//   }
+// };
 
-var good_at = document.getElementById("good_at").getContext("2d");
-var chart = new Chart(good_at, {
-  type: "doughnut",
-  data: data_1,
-  options: options
-});
+// var good_at = document.getElementById("good_at").getContext("2d");
+// var chart = new Chart(good_at, {
+//   type: "doughnut",
+//   data: data_1,
+//   options: options
+// });
 
-var learning = document.getElementById("learning").getContext("2d");
-var chart = new Chart(learning, {
-  type: "doughnut",
-  data: data_2,
-  options: options
-});
+// var learning = document.getElementById("learning").getContext("2d");
+// var chart = new Chart(learning, {
+//   type: "doughnut",
+//   data: data_2,
+//   options: options
+// });
