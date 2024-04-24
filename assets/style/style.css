@@ -60,6 +60,7 @@ html {
 }
 
 #about-pic img {
+  top: 3.5em;
   position: absolute;
   width: 100%;
   left: 0;
