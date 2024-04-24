@@ -52,6 +52,7 @@ html {
 /************** ABOUT **************/
 
 #about-pic {
+  top: 3.5em;
   position: relative;
   margin: 0 auto;
   width: 300px;
@@ -197,7 +198,7 @@ img {
 }
 
 #chart_box {
-  margin-top: 10%;
+  margin-top: 2em;
 }
 
 /************** MEDIA Q **************/
