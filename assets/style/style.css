@@ -92,7 +92,7 @@ html {
 /* Portfolio Div Img */
 .bgimg-2 {
   background-image: url("../images/Parallax_img/Dog.jpg");
-  min-height: 400px;
+  min-height: 200px;
 }
 
 .container {
@@ -177,7 +177,7 @@ img {
 /* Contact Div Img */
 .bgimg-3 {
   background-image: url("../images/Parallax_img/Wave's.jpg");
-  min-height: 400px;
+  min-height: 200px;
 }
 
 #send {
