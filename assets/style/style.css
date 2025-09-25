@@ -172,6 +172,10 @@ img {
   font-size: 17px;
 }
 
+.click{
+  cursor: pointer;
+}
+
 /************** CONTACT **************/
 
 /* Contact Div Img */
